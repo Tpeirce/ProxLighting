@@ -9,14 +9,14 @@ countDown = 10
 
 while True:
     print "Checking " + time.strftime("%a, %d %b %Y %H:%M:%S", time.gmtime())
-    print "Tristan"
+    print "TP"
     print bluetooth.lookup_name('2C:54:CF:79:C3:5E', timeout=5) or '	not present'
-    print "Phillip" 
+    print "PW" 
     print bluetooth.lookup_name('A0:99:9B:3D:94:11', timeout=5) or '	not present'
-    print "Jacob"
+    print "JA"
     print bluetooth.lookup_name('18:AF:61:62:9D:BC', timeout=5) or '	not present'
 #    if (result != None):
-#        print "Tristan present"
+#        print "TP present"
 #	if (beforePresent == False):
 #		os.system("./codesend 351491")
 #		os.system("./codesend 351491")
@@ -38,7 +38,7 @@ while True:
 #		timeSleep += 10
 #	countDown = 10
 #    else:
-#        print "Tristan out of range"
+#        print "TP out of range"
 	#if countdown expired
 #	if (countDown < 0):
 		#this line is prolly pointless
