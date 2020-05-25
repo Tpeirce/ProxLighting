@@ -89,5 +89,5 @@ while True:
 #	otherwise just countdown until either I'm seen or it's time to turn off the lights
 	else:
 		tpCount-=1
-		print "tp away for " + str(tristanCount)
+		print "tp away for " + str(tpCount)
     time.sleep(0)
